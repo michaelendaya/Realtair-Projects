@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Welcome to Realtair</title>
+    <style>
+      html,body {
+        font-family: "Rubik", sans-serif ;
+      }
+      .btn {
+        outline: none;
+        cursor: pointer;
+        font-family: "Rubik", sans-serif ;
+        background-color: #64bd5f;
+        border-color: #64bd5f;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+      .btn:hover{
+        background-color: hsl(117, 41%, 42%);
+      }
+      .btn:focus{
+        box-shadow: 0 0 0 0.2rem hsl(117, 41%, 70%);
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="myFunction()" class="btn">Click Me!</button>
+    <p id="demo"></p>
+  </body>
+  <script>
+    function myFunction() {
+      alert("Welcome to Realtair");
+    }
+  </script>
+</html>
